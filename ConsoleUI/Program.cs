@@ -20,4 +20,3 @@ foreach (var item in carManager.GetAll())
     Console.WriteLine("Id: "+item.Id+"\nBrand Id: "+item.BrandId+"\nColor Id: "+item.ColorId+"\nModel Year: "+item.ModelYear+"\nDaily Price: "+item.DailyPrice+"\nDescription: "+item.Description);
     Console.WriteLine("****************************");
 }
-
