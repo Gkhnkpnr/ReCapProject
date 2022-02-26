@@ -39,7 +39,7 @@ namespace Business.Concrete
 
         public List<Car> GetById(int id)
         {
-            return _carDal.GetById(id);
+            throw new NotImplementedException();
         }
     }
 }
