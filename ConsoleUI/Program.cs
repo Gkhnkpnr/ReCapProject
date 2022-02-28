@@ -1,10 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Business.Concrete;
+using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 
-CarManager carManager = new CarManager(new InMemoryCarDal());
+CarManager carManager = new CarManager(new EfCarDal());
 
 Car car = new Car();
 car.Id = 6;
