@@ -7,12 +7,10 @@ using System.Threading.Tasks;
 using Core.DataAccess.EntityFramework;
 using DataAccess.Abstract;
 using Entities.Concrete;
-using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfBrandDal:EfEntityRepositoryBase<Brand,ReCapContext>,IBrandDal
+    public class EfUserDal:EfEntityRepositoryBase<User,ReCapContext>,IUserDal
     {
-        
     }
 }
